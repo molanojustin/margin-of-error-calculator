@@ -33,6 +33,6 @@ if __name__ == '__main__':
         result = calculateMOE(sampleSize, z, p)
         moeDict[sampleSize] = result
         csv_filename = 'marginOfError.csv'
-        export_dict_to_csv(moeDict, csv_filename)
+    export_dict_to_csv(moeDict, csv_filename)
     print(f"Dictionary exported to '{csv_filename}' successfully.")
 
